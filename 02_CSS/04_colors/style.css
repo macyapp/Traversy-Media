@@ -1,0 +1,14 @@
+h1 {
+    /* Color Name */
+    color: red;
+}
+
+h2 {
+    /* RGB */
+    color: rgb(20, 100, 120);
+}
+
+h3 {
+    color: #000000;
+}
+

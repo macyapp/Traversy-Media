@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+#welcome p span {
+    font-weight: bold;
+}
+
+#about p span {
+    font-style: italic;
+}
