@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background: #f4f4f4;
+    border: 2px #777 solid;
+    width: 500px;
+
+    /* Padding on all sides */
+    /* padding: 120px; */
+
+    /* Padding per side */
+    padding: 10px 20px 10px 20px;
+
+    /* Margin on all sides */
+    margin: 10px 20px;
+}
+
+.box h3 {
+    padding-bottom: 10px;
+}
