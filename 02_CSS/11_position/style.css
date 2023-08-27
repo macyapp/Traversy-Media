@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    height: 4000px;
+}
+
 .box {
     display: flex;
     width: 100px;
@@ -12,22 +16,43 @@
     align-items: center;
 }
 
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #333;
+}
+
 #box-1 {
+    /* position: static; */
+    position: relative;
+    top: 50px;
+    left: 50px;
     background: red;
+    z-index: 1;
 }
 
 #box-2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
     background: yellow;
 }
 
 #box-3 {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
     background: green;
 }
 
 #box-4 {
+    position: fixed;
     background: blue;
 }
 
 #box-5 {
+    position: sticky;
+    top: 0;
     background: orange;
 }
